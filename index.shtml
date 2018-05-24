@@ -1,0 +1,36 @@
+<!--#include virtual="header.shtml" -->
+<section id="slider">
+    <div class="background"></div>
+    <div class="wrapper flexbox">
+     <!--#include virtual="slider.shtml" -->
+
+        <div class="buttons">
+<!--#include virtual="buttons.shtml" -->
+        </div>
+
+    </div>
+</section>
+
+<section id="products">
+    <div class="wrapper flexbox">
+
+<!--#include virtual="product1.shtml" -->
+<!--#include virtual="product2.shtml" -->
+<!--#include virtual="product2.shtml" -->
+<!--#include virtual="product2.shtml" -->
+<!--#include virtual="product2.shtml" -->
+<!--#include virtual="product2.shtml" -->
+      
+
+
+
+
+    </div>
+</section>
+
+<section class="more-products">
+    <div class="wrapper flexbox">
+        <a href "./"> zobacz wszystkie produky <img src="./elements/arrow.png"/></a>
+    </div>
+</section>
+<!--#include virtual="footer.shtml" -->

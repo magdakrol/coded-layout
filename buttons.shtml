@@ -1,0 +1,20 @@
+<div class="button flexbox">
+    <a href="."></a>
+    <div class="image"><img src="./elements/ico1.png"/></div>
+    <span>Wyślij zapytanie o cene</span>
+</div>
+<div class="button flexbox">
+    <a href="."></a>
+    <div class="image"><img src="./elements/ico2.png"/></div>
+    <span>Licencje dla szkół</span>
+</div>
+<div class="button flexbox">
+    <a href="."></a>
+    <div class="image"><img src="./elements/ico3.png"/></div>
+    <span>Promocje</span>
+</div>
+<div class="button flexbox">
+    <a href="."></a>
+    <div class="image"><img src="./elements/ico4.png"/></div>
+    <span>Wersje testowe z centralnym zarządzaniem</span>
+</div>

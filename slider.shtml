@@ -1,0 +1,44 @@
+<div class="fade">
+        <div class="slide flexbox">
+            <div class="slider-img">
+                <img src="./elements/pudelko.png"/>
+            </div>
+            <div class="slide-text">
+                <h1>Eset<br><strong>smart<br>security</strong></h1>
+                <p>
+                    Lorem ipsum dolor sit amer, constregor adipsinig elit. Cras id lacdina neque!
+                </p>
+                <a href="x" class="btn big-button orange">więcej</a>
+            </div>
+
+        </div>
+
+        <div class="slide flexbox">
+            <div class="slider-img">
+                <img src="./elements/pudelko.png"/>
+            </div>
+            <div class="slide-text">
+                <h1>Eset<br><strong>smart<br>security</strong></h1>
+                <p>
+                    Lorem ipsum dolor sit amer, constregor adipsinig elit. Cras id lacdina neque!
+                </p>
+                <a href="x" class="btn big-button orange">więcej</a>
+            </div>
+
+        </div>
+
+        <div class="slide flexbox">
+            <div class="slider-img">
+                <img src="./elements/pudelko.png"/>
+            </div>
+            <div class="slide-text">
+                <h1>Eset<br><strong>smart<br>security</strong></h1>
+                <p>
+                    Lorem ipsum dolor sit amer, constregor adipsinig elit. Cras id lacdina neque!
+                </p>
+                <a href="x" class="btn big-button orange">więcej</a>
+            </div>
+
+        </div>
+
+    </div>

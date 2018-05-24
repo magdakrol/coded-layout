@@ -1,0 +1,244 @@
+<!--#include virtual="header.shtml" -->
+<link rel="stylesheet" type="text/css" href="custom-select/style.css">
+    <section>
+        <div class="wrapper flexbox">
+
+
+
+            <div class="typo">
+                <h1>Tittle</h1>
+                <h2>Tittle</h2>
+                <h3>Tittle</h3>
+                <h4>Tittle</h4>
+                <h5>Tittle</h5>
+                <h6>Tittle</h6>
+                <br>
+                <br>
+                <h5>komponent teksty</h5>
+                <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit. Donec eget urna eros. Nullam viverra nulla non urna
+                    maximus sodales. Maecenas cursus vulputate facilisis. Morbi viverra mattis congue. Suspendisse potenti.
+                    Vivamus pellentesque, arcu eget rutrum tempus, quam nulla convallis nisl, in mattis ligula augue ac nunc.
+                    <a href="link">link</a></p>
+               
+
+
+                <div>
+                    <h5>komponent tabelki</h5>
+                    <table>
+                        <tr>
+                            <th>tittle</th>
+                            <th>tittle</th>
+                            <th>tittle</th>
+                            <th>tittle</th>
+                        </tr>
+                        <tr>
+                            <td>       
+                                <div class="quantity-component" id="quantity-component">
+                <div class="plus" id="plus">
+                    <span></span>
+                    <span></span>
+                </div>
+                <input type="text" id = "quantityValue" value="0">
+                <div class="minus" id="minus">
+                    <span></span>
+                </div>
+            </div></td>
+                            <td>value</td>
+                            <td>value</td>
+                            <td>
+                                <a href="./" class="btn small-button orange">dodaj do koszyka</a>
+                            </td>
+
+                        </tr>
+
+                    </table>
+                    <div>
+
+<h5>tabelka dla mniejszych rozdzielczosci, włączana przez media query</h5>
+                        <div class = "table-small">
+                            
+                            <table>
+                                    <tr>
+                                            <td>Produkt</td>
+                                           
+                                       
+                                            <td>Eset Smart Security</td>
+                                        </tr>
+                                    <tr>
+                                            <td>Czas trwania licencji</td>
+                                           
+                                      
+                                            <td>1 rok</td>
+                                        </tr>
+                                <tr>
+                                    <td>Typ licecji</td>
+                                   
+                             
+                                    <td>nie dotyczy</td>
+                                </tr>
+                                <tr>
+                                        <td>Ilość licencji</td>
+                               
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                            <td>Cena brutto</td>
+                                           
+                                   
+                                            <td>165.90</td>
+                                        </tr>
+                               <tr>
+                                   <td>Opcje</td>
+                                    <td>
+                                        <a href="./" class="btn small-button orange">usuń</a>
+                                    </td>
+        
+                                </tr>
+        
+                            </table>
+                            </div>
+                            <div>
+
+                                    <h5>komponent licznika</h5>
+                        <div class="quantity-component">
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <input type="text">
+                            <div class="minus">
+                                <span></span>
+                            </div>
+                        </div>
+                        <h5>komponent przycisku kroków zamówienia lub przycisków z podstron "kontakt", "dla firm".. </h5>
+                        <div>
+                            <a href="./" class="btn small-button gray">krok 1 / zamówienie</a>
+                        </div>
+                    </div>
+                    <h5>komponent przycisków powrotu i kontynuacji zamówienia</h5>
+                    <div class="container btns1">
+                        <a href="./" class="btn big-button gray">powrót do sklepu</a>
+                   
+               
+                    <a href="./" class="btn big-button orange fr">Nowa licencja</a>
+                </div>
+
+                <h5>komponent inputów formularza</h5>
+                <div class="form-component">
+                    <label for="name">Imię</label>
+                    <input type="text" id="name">
+                    <span class="message error">Podaj imię</span>
+                </div>
+                <div class="form-component error">
+                    <label for="name">Imię</label>
+                    <input type="text" id="name">
+                    <span class="message">Podaj imię</span>
+                </div>
+
+                <h5>komponent wiadomości typu valid/invalid przy inputach</h5>
+                <span class="message error">
+                    Nie wiem gdzie jestem
+                </span>
+                <span class="message success">
+                    Wiem gdzie jestem
+                </span>
+                <h5>komponent customowego selecta</h5>
+                <div class="form-component">
+                    <label for="year">Branża</label>
+                    <select id="year">
+                        <option value="hide">--Branża--</option>
+                        <option value="opcja">opcja</option>
+                        <option value="opcja">opcja</option>
+                        <option value="opcja">opcja</option>
+                        <option value="opcja">opcja</option>
+                    </select>
+                    <span class="message error">wybierz jedno</span>
+                </div>
+                <h5>komponent checbox'ów</h5>
+                <div class="form-component form-checkbox">
+                    <span>Wybierz:</span>
+                       <input type="checkbox" id="cfirst" name="x" value="x" required>
+                        <label for="cfirst">Załóż konto</label><br>
+                        <input type="checkbox" id="csecond" name="x" value="x">
+                        <label for="csecond">Załóż konto</label>
+                       
+                      
+                      </div>
+
+                      <h5>komponent radio buttonów</h5>
+                      <div class="form-component form-radio">
+                        <span>Wybierz:</span>
+                         <input type="radio" name="x" value="x" id="radio" >
+                            <label for="radio" onclick="test(this)">Lorem</label>
+                            <br>
+                            <input type="radio" name="x" value="x" id="radio2" >
+                            <label for="radio2" onclick="test(this)">Lorem</label>
+                            <input type="radio" name="x" value="x" id="radio3" >
+                            <label for="radio3" onclick="test(this)">Lorem</label>
+                    </div> 
+                    <h5>komponent textarea</h5>
+                <div class="form-component">
+
+                    <textarea name="name"> </textarea>
+
+                </div>
+
+
+
+            </div>
+            <h5>komponent listy</h5>
+            <ul class ="list">
+                <li>Lista</li>
+                <li>Lista</li>
+                <li>Lista</li>
+            </ul>
+
+         
+
+
+        </div>
+           </div>
+       
+        <div class="buttons subpage"> <h5>komponent przycisków odsyłających</h5><br>
+            <div class="button flexbox">
+                <a href="."></a>
+                <div class="image">
+                    <img src="./elements/ico1.png" />
+                </div>
+                <span>Wyślij zapytanie o cene</span>
+            </div>
+            <div class="button flexbox">
+                <a href="."></a>
+                <div class="image">
+                    <img src="./elements/ico2.png" />
+                </div>
+                <span>Licencje dla szkół</span>
+            </div>
+            <div class="button flexbox">
+                <a href="."></a>
+                <div class="image">
+                    <img src="./elements/ico3.png" />
+                </div>
+                <span>Promocje</span>
+            </div>
+            <div class="button flexbox">
+                <a href="."></a>
+                <div class="image">
+                    <img src="./elements/ico4.png" />
+                </div>
+                <span>Wersje testowe z centralnym zarządzaniem</span>
+            </div>
+        </div>
+
+  
+
+
+     
+
+
+
+
+
+
+    </section>
+<!--#include virtual="footer.shtml" -->

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ESET</title>
+
+    <link rel="stylesheet" type="text/css" href="reset.css">
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="custom-select/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper flexbox">
+
+            <div class="logo ">
+                <a href = "index.shtml"><img src = "./elements/logo.png"></a>
+            </div>
+            <div id="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu " id="menu">
+
+                <div class="search-bar">
+                    <a href="."><img src = "./elements/koszyk.png"/></a>
+                    <form class="search-form"><input type="text" placeholder="szukaj..."><img src = "./elements/magnifier.png" class = "magnifier"></span></input></form>
+
+                </div>
+
+                <div class = "clear"></div>
+
+                <nav>
+
+
+                    <ul>
+                        <li><a href = "subpage.shtml">dla domu</a></li>
+                        <li><a href = "dlafirmy.shtml">dla firmy</a></li>
+                        <li><a href = "subpage.shtml" class = "active">sklep</a></li>
+                        <li><a href = "subpage.shtml">sprzedaż hurtowa</a></li>
+                        <li><a href = "subpage.shtml">support</a></li>
+                        <li><a href = "form.shtml">kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>

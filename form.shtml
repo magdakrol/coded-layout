@@ -1,0 +1,85 @@
+<!--#include virtual="header.shtml" -->
+
+
+<section>
+
+<div class="wrapper flexbox">
+<div class = "contact-form flexbox">
+        <div class = "btns">
+                <a href = "./" class="btn small-button gray">biuro obsługi klienta</a>
+                <a href = "./" class="btn small-button gray">dział sprzedaży</a>
+                <a href = "./" class="btn small-button gray">sprzedaż hurtowa</a>
+                <a href = "./" class="btn small-button gray">o nas</a>
+            </div>
+            <div class = "form-row-1">
+             <h2>formularz</h2>
+             <p>Lorem ipsum dolor set amit.</p>
+            </div>
+            <div class = "form-row-2 flexbox">
+                <div class = "form-column-1 flexbox">
+             <div class="form-component">
+                <label for="name">Imię i nazwisko:</label>
+                <input type="text" id="name" required>
+                <span class="message error">Podaj poprawne imię i nazwisko</span>
+            </div>
+            <div class="form-component">
+                <label for="name">Adres email:</label>
+                <input type="email" id="mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <span class="message error">Podaj poprawny adres email</span>
+            </div>
+            <div class="form-component custom-select">
+                <label for="year">Branża</label>
+                <select id="year">
+                    <option value="hide">--Branża--</option>
+                    <option value="opcja">opcja</option>
+                    <option value="opcja">opcja</option>
+                    <option value="opcja">opcja</option>
+                    <option value="opcja">opcja</option>
+                </select>
+                <span class="message error">Podaj imię</span>
+            </div>
+            <div class="form-component form-checkbox">
+                
+                   <input type="checkbox" id="cfirst" name="x" value="x">
+                    <label for="cfirst">Załóż konto</label>
+                   
+                   
+                  
+                  </div>
+                  <div class="form-component form-radio">
+                
+                        <input type="radio" name="x" value="x" id="radio" >
+                        <label for="radio" onclick="test(this)">Lorem</label>
+                      
+          
+                </div> 
+        </div>
+        <div class = "form-column-1">
+            <div class="form-component">
+                <label for "message">Uwagi:</label>
+                <textarea name="message"> </textarea>
+                <a href="./" class="btn big-button orange">Wyślij</a>
+            </div>
+        </div>
+        
+       
+        </div>
+        
+            </div>
+           
+
+
+
+
+
+        <div class = "buttons subpage ">
+         <!--#include virtual="buttons.shtml" -->
+            </div>
+        </div>
+
+
+</section>
+
+
+
+<!--#include virtual="footer.shtml" -->

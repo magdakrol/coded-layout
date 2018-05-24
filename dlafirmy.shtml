@@ -1,0 +1,50 @@
+<!--#include virtual="header.shtml" -->
+
+    <section>
+        <div class="wrapper flexbox">
+            <div class = "customer-service flexbox">
+                    <div class = "btns">
+                            <a href = "./" class="btn small-button gray ">biuro obsługi klienta</a>
+                            <a href = "./" class="btn small-button gray">dział sprzedaży</a>
+                            <a href = "./" class="btn small-button gray">sprzedaż hurtowa</a>
+                            <span class="btn small-button gray">o nas</span>
+                        </div>
+                        <h2>biuro <strong>obsługi klienta</strong></h2>
+                        <p>Witamy w Biurze Obsługi Klienta Biznesowego firmy <strong>Miecz Net</strong> - Bezpieczeństwo Sieci Komputerowej.<br> Nasi doradcy są do Państwa dyspozycji od poniedziałku do piątku, w godzinach od 8:00 do 17:00</p>
+
+                        <div class = "adress-box flexbox">
+                            <div class = "person">
+                                <h5>Małgorzata Starak</h5>
+                                <p>
+                                    doradca klienta <br>
+                                    +48 32 307-68-10 <br>
+                                    <a href="">m.starak@av-eset.pl</a>
+                                </p>
+                            </div>
+                            <div class = "person">
+                                    <h5>Małgorzata Starak</h5>
+                                    <p>
+                                        doradca klienta <br>
+                                        +48 32 307-68-10 <br>
+                                        <a href="">m.starak@av-eset.pl</a>
+                                    </p>
+                                </div>
+                                <div class = "person">
+                                        <h5>Małgorzata Starak</h5>
+                                        <p>
+                                            doradca klienta <br>
+                                            +48 32 307-68-10 <br>
+                                            <a href="">m.starak@av-eset.pl</a>
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class = "buttons subpage">
+                 <!--#include virtual="buttons.shtml" -->
+                        </div>
+</div>
+
+
+
+    </section>
+<!--#include virtual="footer.shtml" -->

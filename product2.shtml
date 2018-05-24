@@ -1,0 +1,35 @@
+
+        <div class="product">
+                <div class="marker">
+                    <span class="percent"><span><img src="./elements/procenty.png"/></span><span>promocja</span></span>
+                    <span class="time"><span><img src="./elements/time.png"/></span><span>realizacja w 5 minut</span></span>
+                </div>
+                <div class = "rotate-box">
+                                <!-- zwykły rotate, pozwala na umieszczenie krótkich tekstów jeden obok drugiego-->
+                                <div class = "marker rotate">
+                                    <span class="percent"><span><img src = "./elements/procenty.png"/></span><span>tekst tekst</span></span>
+                                    <span class="time"><span><img src = "./elements/time.png"/></span><span>tekst tekst</span></span>
+                                </div>
+                            </div>
+                <div class="content">
+                    <h4>Title</h4>
+                    <div class="product-box ">
+                        <div class="product-img">
+                            <img src="./elements/product.png"/>
+                        </div>
+                        <div class="product-buttons">
+                            <a href="./">Kup nową - od 100,20 zł</a>
+                            <a href="./">Przedłuż licencję - od 75,50 zł</a>
+                            <span>Rozszerz licencję 0d 65,50 zł</span>
+                        </div>
+                    </div>
+    
+                    <div class="description">
+                        <p><span>1, 2, 3 lub 4 licencje (dom lub firma)</span><br>
+                            Poczuj się bezpiecznie podczas codziennego korzystania z sieci. Oprogramowanie niezawodnie
+                            wykryje i zneutralizuje zagrożenia.</p>
+                        <a href="product.shtml">szczegóły</a>
+                    </div>
+                </div>
+    
+            </div>

@@ -1,0 +1,31 @@
+<div class = "product-order flexbox">
+
+<div class = "column">
+    <h3>Dziękujemy za złożenie zamówienia</h3>
+
+    <p>Twoje zamówienia numer <strong>2050/02/2018</strong> zostało przyjęte.<br>
+
+            Na podany w zamówieniu adres e-mail otrzymasz potwierdzenie złożenia zamówienia oraz fakturę pro-forma.<br>
+            
+            Po dokonaniu płatności za Twoje zamówienie, na podany adres e-mail otrzymasz wiadomość zawierającą wszystkie niezbędne dane potrzebne do pobrania i rejestracji programu.<br>
+            
+            Certyfikat licencyjny oraz faktura VAT zostanie do Ciebie przesłana na podany w zamówieniu adres e-mail w formie plików PDF lub listem poleconym / kurierem w zależności od wybranej formy wysyłki w zamówieniu.</p>
+
+</div>
+
+<div class = "column">
+        <h3>Płatność on-line (PayU)</h3>
+        <div>
+        <p><strong>Kwota do zapłaty: kwota zł</strong><br>
+        <div class = "pay-img">
+            <a href="."><img src="./elements/platnosci.gif"/></a>
+        </div><br>
+        
+        <strong>Płatności dokonaj za pośrednictwem PayU ON-LINE lub kartą kredytową klikając na logo powyżej.</strong></p>
+    </div>
+</div>
+
+
+
+
+</div>

@@ -1,0 +1,67 @@
+        <div class = "product-order">
+        <div class = "steps">
+            <a href="./" class="btn big-button orange">osoba prywatna</a>
+            <a href="./" class="btn big-button orange">firma</a>
+        </div>
+
+            <div class="form-row-1">
+                <h3>Dane do wystawienia faktury</h3>
+            </div>
+
+            <form action="step2.shtml">
+            <div class="form-row-2 flexbox">
+                <div class="form-column-1">
+                    <div class="form-component">
+                        <label for="name">Imię:</label>
+                        <input type="text" id="name"  required minlength="3">
+                        <span class="message error">Podaj poprawne imię i nazwisko</span>
+                    </div>
+                    <div class="form-component">
+                        <label for="name">Email:</label>
+                        <input type="email" id="name" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+                        <span class="message error">Podaj poprawne imię i nazwisko</span>
+                    </div>
+                    <div class="form-component">
+                        <label for="name">Ulica, numer:</label>
+                        <input type="text" id="name" required>
+                        <span class="message error">Podaj poprawne imię i nazwisko</span>
+                    </div>
+                    <div class="form-component">
+                        <label for="name">Miejscowość:</label>
+                        <input type="text" id="mail" required  minlength="3">
+                        <span class="message error">Podaj poprawny adres email</span>
+                    </div>
+                    </div>
+                    <div class="form-column-1"> 
+                    <div class="form-component">
+                            <label for="name">Nazwisko:</label>
+                            <input type="text" id="name" required  minlength="3">
+                            <span class="message error">Podaj poprawne imię i nazwisko</span>
+                        </div>
+                    <div class="form-component">
+                        <label for="name">Telefon:</label>
+                        <input type="text" id="mail" required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{3}|[0-9]{2}[ -][0-9]{3}[ -][0-9]{2}[ -][0-9]{2}" placeholder="000-000-000 lub 00-000-00-00">
+                        <span class="message error">Podaj poprawny adres email</span>
+                    </div>
+                    <div class="form-component">
+                        <label for="name">Kod pocztowy:</label>
+                        <input type="text" id="mail" required pattern="[0-9]{2}[-][0-9]{3}">
+                        <span class="message error">Podaj poprawny adres email</span>
+                    </div>
+                    
+                </div>
+            </div>
+                    <div class="form-component form-checkbox">
+
+                        <input type="checkbox" id="cfirst" name="x" value="x">
+                        <label for="cfirst">Inne dane do wystawienia licencji</label><br>
+                        <input type="checkbox" id="csecond" name="x" value="x" required>
+                        <label for="csecond">Wyrażam zgodę...</label>
+                    </div>
+                <div class="btns1" >
+                    <a href="./" class="btn big-button gray">powrót do sklepu</a>
+                    <button type="submit" href="step2.shtml" class="btn fr big-button orange fr">Kontynuuj zamówienie</button>
+                </div>
+            </form>
+                </div>
+         

@@ -1,0 +1,50 @@
+        <footer>
+            <div class="wrapper">
+                <div class="top flexbox">
+                    <div class="box1 flexbox">
+                        <div class="logo">
+                            <img src="./elements/logo_stopka.png"/>
+                            <span>
+                            Autoryzowany partner
+                        </span>
+                        </div>
+
+                        <div class="contact">
+                            <p><span>skontaktuj się z nami:</span><br>
+                                tel: <strong>32 307-35-45</strong><br>
+                                mail: <strong>kontakt@eset.av.pl</strong></p>
+                        </div>
+                    </div>
+
+                    <a class="remind">
+                        <img src="./elements/calendar.png">
+                        <span> Przypomnij o końcu licencji </span>
+                    </a>
+
+                    <ul>
+                        <li><a href="./">licencjonowanie</a></li>
+                        <li><a href="./">kontakt</a></li>
+                        <li><a href="./">regulamin strony</a></li>
+                        <li><a href="./">płatności</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="./">płatności</a></li>
+                        <li><a href="./">kontakt</a></li>
+                        <li><a href="./">regulamin sklepu</a></li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <span class="left">Copyright (c) by Miecznet 2001-2017. Wszelkie prawa zastrzeżone</span>
+
+                    <span class="right">Layout: <a href="http://digitalberry.pl/">Digitalberry</a> + <a
+                            href="http://cutberry.com/">CUTberry</a> | Powered by <a href="https://mikomi.pl/kontakt.html">Mikomi</a></span>
+                </div>
+            </div>
+        </footer>
+        <script src="/custom-select/script.js" type="text/javascript"></script>
+        <script src="./jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="./slick/slick.js" type="text/javascript"></script>
+        <script src="./script.js" type="text/javascript"></script>
+    </body>
+</html>

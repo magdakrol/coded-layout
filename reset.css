@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff
+}
+
+body,
+input,
+p,
+select,
+td,
+textarea,
+th {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+a,
+a img {
+    border: medium none;
+    outline: medium none;
+    text-decoration: none;
+    display: inline-block
+}
+
+a:hover {
+    text-decoration: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: inline-block;
+    font-weight: 400;
+    padding: 0;
+    margin: 0
+}
+
+ol,
+ul,
+ul li {
+    list-style: none outside none;
+    padding: 0;
+    margin: 0
+}
+
+input[type=password],
+input[type=text],
+textarea {
+    outline: 0;
+    margin: 0;
+    padding: 0
+}
+
+textarea {
+    resize: none
+}
+
+button {
+    border: none;
+    cursor: pointer
+}
+
+select {
+    outline: 0;
+    cursor: pointer
+}
+
+.b {
+    font-weight: 700
+}
+
+.clear {
+    clear: both
+}
+
+.hid {
+    display: none!important
+}
+
+.upp {
+    text-transform: uppercase
+}
+
+.low {
+    text-transform: lowercase
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}

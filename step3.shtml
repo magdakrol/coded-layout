@@ -1,0 +1,117 @@
+<div class="product-order">
+    <h3>Zamawiane produkty</h3>
+    <table class="table-big">
+        <thead>
+            <tr>
+                <th class="product-name">Produkt</th>
+                <th class="years">Czas&nbsp;trwania&nbsp;licencji</th>
+                <th class="license-type">Typ&nbsp;licencji</th>
+                <th class="quantity">Ilość&nbsp;licencji</th>
+                <th class="price">Wartość&nbsp;brutto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eset Smart Security</td>
+                <td>1 rok</td>
+                <td>nie dotyczy</td>
+                <td>1</td>
+                <td>162,34</td>
+            </tr>
+        </tbody>
+        <thead class="price">
+            <tr>
+                <th colspan="3"></th>
+                <th>Suma:</th>
+                <th colspan="2">cena</th>
+            </tr>
+        </thead>
+    </table>
+    <div class="table-small">
+        <table>
+            <tr>
+                <th>Produkt</th>
+                <td>Eset Smart Security</td>
+            </tr>
+            <tr>
+                <th>Czas trwania licencji</th>
+                <td>1 rok</td>
+            </tr>
+            <tr>
+                <th>Typ licecji</th>
+                <td>nie dotyczy</td>
+            </tr>
+            <tr>
+                <th>Ilość licencji</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Wartość brutto</th>
+                <td>165.90</td>
+            </tr>
+            <tr>
+                <th>Suma:</th>
+                <th>
+                    cena
+                </th>
+            </tr>
+        </table>
+    </div>
+    <h3>Dane do wystawienia faktury</h3>
+    <div>
+        <table>
+            <tr>
+                <th>Imię i nazwisko:</th>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <th>ulica i numer:</th>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <th>Kod, miasto:</th>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>loremx</td>
+            </tr>
+            <tr>
+                <th>Telefon:</th>
+                <td>lorem</td>
+            </tr>
+        </table>
+    </div>
+    <h3>Korespondencja</h3>
+    <div class="form-component">
+        <textarea placeholder="Tu wpisz wiadomość do nas..."></textarea>
+    </div>
+    <h3>Dodatkowe informacje</h3>
+    <input type="checkbox" id="cfirst" name="x" value="x">
+    <div class="form-component">
+
+        <input type="checkbox" id="csecond" name="x" value="x" required>
+        <label for="csecond">Wyrażam...</label>
+        <br>
+        <input type="checkbox" id="csecond" name="x" value="x" required>
+        <label for="csecond">Akceptuje...</label>
+        <br>
+        <input type="checkbox" id="cfirst" name="x" value="x">
+        <label for="cfirst">Chcę...</label>
+        <br>
+        <input type="checkbox" id="csecond" name="x" value="x">
+        <label for="csecond">Chcę...</label>
+    </div>
+    <h3>Forma płatności</h3>
+    <div class="form-component">
+        <input type="radio" name="x" value="x" id="radio">
+        <label for="radio" onclick="test(this)">on-line</label>
+        <br>
+        <input type="radio" name="x" value="x" id="radio2">
+        <label for="radio2" onclick="test(this)">przelew</label>
+    </div>
+    <div class = "btns1">
+        <a href="./" class="btn big-button gray">wstecz</a>
+        <a href="step2.shtml" class="btn fr big-button orange fr">potwierdź zamówienie</a>
+    </div>
+</div>
